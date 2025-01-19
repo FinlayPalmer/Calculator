@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculatorstylesheet.css">
+    <script src="calculatorfunctions.js"></script>
+</head>
+
+<body>
+    <div class="buttons" id="buttons">
+        <div class="output" id="output">
+            <p id="outputText">0</p>
+        </div>
+        <button type="button" onclick="setNum(7)">7</button>
+        <button type="button" onclick="setNum(8)">8</button>
+        <button type="button" onclick="setNum(9)">9</button>
+        <button type="button" onclick="changeOp('+')">+</button>
+        <br>
+        <button type="button" onclick="setNum(4)">4</button>
+        <button type="button" onclick="setNum(5)">5</button>
+        <button type="button" onclick="setNum(6)">6</button>
+        <button type="button" onclick="changeOp('-')">-</button>
+        <br>
+        <button type="button" onclick="setNum(1)">1</button>
+        <button type="button" onclick="setNum(2)">2</button>
+        <button type="button" onclick="setNum(3)">3</button>
+        <button type="button" onclick="changeOp('/')">/</button>
+        <br>
+        <button type="button" onclick="setNum(0)">0</button>
+        <button type="button" onclick="reset()">CE</button>
+        <button type="button" onclick="operate(num1,num2)">=</button>
+        <button type="button" onclick="changeOp('*')">x</button>
+    </div>
+</body>
+
+</html>
